@@ -263,13 +263,9 @@ public class Main {
         int count = 0;
         int sum = 0;
 
-        double rnd81 = min8 + (double) (Math.round(Math.random() * (max8 - min8)));
-        double rnd82 = min8 + (double) (Math.round(Math.random() * (max8 - min8)));
-        double rnd83 = min8 + (double) (Math.round(Math.random() * (max8 - min8)));
-
-//       int rnd81 = 0;
-//       int rnd82 = 5;
-//       int rnd83 = 3;
+        int rnd81 = min8 + (int) (Math.round(Math.random() * (max8 - min8)));
+        int rnd82 = min8 + (int) (Math.round(Math.random() * (max8 - min8)));
+        int rnd83 = min8 + (int) (Math.round(Math.random() * (max8 - min8)));
 
         System.out.println(rnd81);
         System.out.println(rnd82);
@@ -277,14 +273,14 @@ public class Main {
 
         System.out.println("---------");
 
-        System.out.println("Pirmas vidurkis: " + (int)(rnd81 + rnd82 + rnd83) / 3);
+        System.out.println("Pirmas vidurkis: " + Math.round((double)(rnd81 + rnd82 + rnd83) / 3));
 
         if ((rnd81 >= 10) && (rnd81 <= 90)) {
             sum += rnd81;
             count++;
         }
         if ((rnd82 >= 10) && (rnd82 <= 90)) {
-            sum+=rnd82;
+            sum += rnd82;
             count++;
         }
         if ((rnd83 >= 10) && (rnd83 <= 90)) {
@@ -292,11 +288,7 @@ public class Main {
             count++;
         }
 
-        if (count == 0) {
-            System.out.println(" Antro vidurkio nera");
-        } else {
-            System.out.println("Antras vidurkis: " + sum / count);
-        }
+        System.out.println("Antras vidurkis: " + Math.round((double) sum / count));
 
 
 
