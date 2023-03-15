@@ -4,6 +4,8 @@ public class Main {
 
 //          Pirma uzduotis
 
+        System.out.println("---------1 uzd--------");
+
         String name = "Eldaras";
         String surname = "Suleimanovas";
         int birthDate = 1980;
@@ -13,6 +15,8 @@ public class Main {
 
 
 //        Antra uzduotis
+
+        System.out.println("------------2 uzd------------");
 
         int min2 = 0;
         int max2 = 4;
@@ -31,6 +35,8 @@ public class Main {
         }
 
 //            Trecia uzduotis
+
+        System.out.println("-------------3 uzd-----------");
 
         int min3 = 0;
         int max3 = 25;
@@ -70,6 +76,8 @@ public class Main {
 
 //            Ketvirta uzduotis
 
+        System.out.println("-----------4 uzd--------");
+
         int min4;
         int max4;
 
@@ -93,6 +101,8 @@ public class Main {
 
 
 //            Penkta uzduotis
+
+        System.out.println("-----------5 uzd-----------");
 
         int min5 = 0;
         int max5 = 2;
@@ -161,6 +171,8 @@ public class Main {
 
 //            Sesta uzduotis
 
+        System.out.println("------------6 uzd-------------");
+
         int min6 = -10;
         int max6 = 10;
 
@@ -209,6 +221,8 @@ public class Main {
 
 //            Septinta uzduotis
 
+        System.out.println("--------------7 uzd-----------");
+
         int min7;
         int max7;
 
@@ -233,6 +247,8 @@ public class Main {
 
 
 //            Astunta uzduotis
+
+        System.out.println("--------------8 uzd------------");
 
         int min8 = 0;
         int max8 = 100;
