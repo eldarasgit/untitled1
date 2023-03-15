@@ -298,6 +298,8 @@ public class Main {
             System.out.println("Antras vidurkis: " + sum / count);
         }
 
+        System.out.println("hello world");
+
 
 
 
