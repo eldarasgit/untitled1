@@ -27,6 +27,9 @@ public class Main {
         System.out.println("rnd21 skaiciaus reiksme yra: " + rnd21);
         System.out.println("rnd22 skaiciaus reiksme yra: " + rnd22);
 
+        System.out.println("---------");
+
+
         if (Math.min(rnd21,rnd22)==0) {
             System.out.println("Is 0 dalinti negalima");
         } else {
@@ -48,6 +51,8 @@ public class Main {
         System.out.println(rnd31);
         System.out.println(rnd32);
         System.out.println(rnd33);
+
+        System.out.println("---------");
 
         if (rnd31==rnd32 || rnd31==rnd33 || rnd32==rnd33) {
             System.out.println("Skaiciaus su vidurine reiksme nera");
@@ -91,6 +96,8 @@ public class Main {
         System.out.println(rnd41);
         System.out.println(rnd42);
         System.out.println(rnd43);
+
+        System.out.println("---------");
 
         if (rnd41+rnd42 > rnd43 && rnd42+rnd43 > rnd41 && rnd43+rnd41 > rnd42) {
             System.out.println("Trikampis gaunasi");
