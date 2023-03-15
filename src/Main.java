@@ -282,12 +282,5 @@ public class Main {
 
 
 
-
-        git config --global user.name "eldarasgit"
-        git config --global user.email "eldarone7@gmail.com"
-
-
-
-
     }
 }
